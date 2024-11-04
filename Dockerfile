@@ -1,7 +1,7 @@
 # Use an official Node.js runtime as a parent image
 FROM node:18-alpine
 
-ARG UC_HOST="http://unitycatalog:8080"
+ARG UC_HOST="http://unity-catalog:8080"
 
 # Set the working directory
 WORKDIR /app
